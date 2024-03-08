@@ -38,6 +38,7 @@ void main() {
         float result = vmm_read_vec_out_float(1);
         float result = vmm_read_vec_out_float(2);
         float result = vmm_read_vec_out_float(3);
+        
 
         print_float(result);
         printf("\n");

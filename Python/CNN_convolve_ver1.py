@@ -12,6 +12,8 @@ input_image = torch.tensor([
     [0.31, 0.32, 0.33, 0.24, 0.25, 0.25]
 ], dtype=torch.float32).unsqueeze(0).unsqueeze(0)  # Shape: [1, 1, 6, 6]
 
+
+
 # New filter (3x3) based on your provided values
 filter = torch.tensor([
     [1, 0, -1],

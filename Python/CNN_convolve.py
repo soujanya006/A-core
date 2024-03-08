@@ -9,6 +9,7 @@ input_image = torch.tensor([[1, 2, 3, 4, 5, 6],
                             [19, 20, 21, 22, 23, 24],
                             [25, 26, 27, 28, 29, 30],
                             [31, 32, 33, 34, 35, 36]], dtype=torch.float32)
+                            
 
 # Reshape input image to (batch_size, channels, height, width)
 input_image = input_image.unsqueeze(0).unsqueeze(0)  # Shape: [1, 1, 6, 6]
