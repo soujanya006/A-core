@@ -21,6 +21,7 @@ filter = torch.tensor([
     [1, 0, -1]
 ], dtype=torch.float32).unsqueeze(0).unsqueeze(0)  # Shape: [1, 1, 3, 3]
 
+
 # Define the convolution operation with the new filter size
 convolution = nn.Conv2d(in_channels=1, out_channels=1, kernel_size=3, stride=1, padding=0, bias=False)
 
